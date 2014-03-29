@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Amount:</strong>
+  <%= @sale.amount %>
+</p>
+
+<p>
+  <strong>Tax:</strong>
+  <%= @sale.tax %>
+</p>
+
+<p>
+  <strong>Customer</strong>
+  <%= @sale.customer.name %>
+</p>
+
+<p>
+  <strong>Tax:</strong>
+  <%= number_to_currency(@sale.tax) %>
+</p>
+
+<%= link_to 'Edit', edit_sale_path(@sale) %> |
+<%= link_to 'Back', sales_path %>
