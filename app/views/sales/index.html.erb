@@ -15,8 +15,8 @@
   <tbody>
     <% @sales.each do |sale| %>
       <tr>
-        <td><%= number_to_currency(sale.amount) %></td>
-        <td><%= number_to_currency(sale.tax) %></td>
+        <td><%= sale.amount %></td>
+        <td><%= sale.tax %></td>
         <td><%= sale.customer.name.upcase %></td>
         <td><%= link_to 'Show', sale %></td>
         <td><%= link_to 'Edit', edit_sale_path(sale) %></td>
