@@ -54,10 +54,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sales_controller.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/sales_controller.rb">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/sales/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="21" selection-start="372" selection-end="372" vertical-scroll-proportion="0.3063063" vertical-offset="204" max-vertical-offset="1411">
+            <state line="14" column="0" selection-start="186" selection-end="186" vertical-scroll-proportion="0.44990548" vertical-offset="0" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
@@ -89,7 +89,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/customers/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="6" selection-start="151" selection-end="151" vertical-scroll-proportion="-5.9615383" vertical-offset="49" max-vertical-offset="612">
+            <state line="21" column="20" selection-start="284" selection-end="357" vertical-scroll-proportion="-12.5" vertical-offset="32" max-vertical-offset="663">
               <folding />
             </state>
           </provider>
@@ -163,11 +163,11 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/sales/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/sales/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/sales/index.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/views/customers/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/customers_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/sales_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/customers/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/sales/index.html.erb" />
       </list>
     </option>
   </component>
@@ -945,23 +945,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sales/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="45" selection-start="353" selection-end="353" vertical-scroll-proportion="0.610586" vertical-offset="0" max-vertical-offset="629">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="14" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="918">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/customers/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="6" selection-start="151" selection-end="151" vertical-scroll-proportion="-5.9615383" vertical-offset="49" max-vertical-offset="612">
           <folding />
         </state>
       </provider>
@@ -975,7 +961,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/sales_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="21" selection-start="372" selection-end="372" vertical-scroll-proportion="0.3063063" vertical-offset="204" max-vertical-offset="1411">
+        <state line="34" column="48" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/customers/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="20" selection-start="284" selection-end="357" vertical-scroll-proportion="-12.5" vertical-offset="32" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/sales/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="186" selection-end="186" vertical-scroll-proportion="0.44990548" vertical-offset="0" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
