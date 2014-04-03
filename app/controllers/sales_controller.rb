@@ -4,8 +4,10 @@ class SalesController < ApplicationController
   # GET /sales
   # GET /sales.json
   def index
-    @sales = Sale.all
+    @sales = Sale.preload(:customer)
   end
+
+
 
   # GET /sales/1
   # GET /sales/1.json
