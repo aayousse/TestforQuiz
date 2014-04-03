@@ -4,7 +4,8 @@ class SalesController < ApplicationController
   # GET /sales
   # GET /sales.json
   def index
-    @sales = Sale.preload(:customer)
+    @sales = Sale.order("customer_id").page(params[:page]).per(1)
+
   end
 
 

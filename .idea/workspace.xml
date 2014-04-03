@@ -12,7 +12,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/performance_testing@Development__performance_testing.coverage" NAME="Development: performance_testing Coverage Results" MODIFIED="1396483454348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="performance_testing" />
+    <SUITE FILE_PATH="coverage/performance_testing@Development__performance_testing.coverage" NAME="Development: performance_testing Coverage Results" MODIFIED="1396490313373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="performance_testing" />
     <SUITE FILE_PATH="coverage/performance_testing@db_migrate__performance_testing.coverage" NAME="db:migrate: performance_testing Coverage Results" MODIFIED="1396483434976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="performance_testing" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -54,6 +54,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="sales_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/sales_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="21" selection-start="372" selection-end="372" vertical-scroll-proportion="0.3063063" vertical-offset="204" max-vertical-offset="1411">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/customers/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,15 +73,6 @@
                 <marker date="1396482875517" expanded="true" signature="377:445" placeholder="..." />
                 <marker date="1396482875517" expanded="true" signature="469:498" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/sales/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="10" selection-start="601" selection-end="601" vertical-scroll-proportion="0.80340266" vertical-offset="0" max-vertical-offset="629">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -89,7 +89,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/customers/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="31" selection-start="275" selection-end="275" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="578">
+            <state line="12" column="6" selection-start="151" selection-end="151" vertical-scroll-proportion="-5.9615383" vertical-offset="49" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
@@ -116,7 +116,7 @@
       <file leaf-file-name="customers_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/customers_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="20" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="805" max-vertical-offset="1360">
+            <state line="6" column="8" selection-start="181" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1360">
               <folding />
             </state>
           </provider>
@@ -137,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/test/performance/invoices_test.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/test/performance_test_helper.rb" />
@@ -151,7 +150,6 @@
         <option value="$PROJECT_DIR$/db/migrate/20140328131431_create_sales.rb" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/customers.css.scss" />
-        <option value="$PROJECT_DIR$/app/controllers/customers_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/customers/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/customers/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/customers/index.json.jbuilder" />
@@ -165,9 +163,11 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/sales/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/sales/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/sales_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/customers/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/sales/index.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/customers/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/customers_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/sales_controller.rb" />
       </list>
     </option>
   </component>
@@ -372,47 +372,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="performance_testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="performance-testing-assignment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="performance_testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="performance-testing-assignment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concerns" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -827,13 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
@@ -945,20 +898,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/sales_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="10" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="686" max-vertical-offset="1394">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/customers_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="20" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="805" max-vertical-offset="1360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
@@ -1006,16 +945,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/customers/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/sales/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="31" selection-start="275" selection-end="275" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="578">
+        <state line="19" column="45" selection-start="353" selection-end="353" vertical-scroll-proportion="0.610586" vertical-offset="0" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sales/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="10" selection-start="601" selection-end="601" vertical-scroll-proportion="0.80340266" vertical-offset="0" max-vertical-offset="629">
+        <state line="31" column="14" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/customers/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="6" selection-start="151" selection-end="151" vertical-scroll-proportion="-5.9615383" vertical-offset="49" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/customers_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="8" selection-start="181" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/sales_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="21" selection-start="372" selection-end="372" vertical-scroll-proportion="0.3063063" vertical-offset="204" max-vertical-offset="1411">
           <folding />
         </state>
       </provider>

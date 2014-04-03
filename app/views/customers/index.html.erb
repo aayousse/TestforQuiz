@@ -10,6 +10,8 @@
     </tr>
   </thead>
 
+  <%= paginate @customers %>
+
   <tbody>
     <% @customers.each do |customer| %>
       <tr>
