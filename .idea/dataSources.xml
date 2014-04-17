@@ -1,35 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1316493735">
-    <data-source source="LOCAL" name="Rails performance_testing: development" uuid="1ff877bf-1d06-4c26-bf0c-03f92d274112">
+  <component name="DataSourceManagerImpl" format="xml" hash="1344507815">
+    <data-source source="LOCAL" name="Rails per: development" uuid="cc5b28fa-8bc9-4439-9445-76242244aea7">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\aayousse\ruby1\performance-testing-assignment\db\development.sqlite3</jdbc-url>
-      <libraries>
-        <library>
-          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/sqlite-jdbc-3.7.2.jar</url>
-        </library>
-      </libraries>
+      <jdbc-url>jdbc:sqlite:C:\Users\aayousse\Desktop\per\db\development.sqlite3</jdbc-url>
+      <libraries />
     </data-source>
-    <data-source source="LOCAL" name="Rails performance_testing: test" uuid="b65d1397-259a-493d-ab80-3095ddd09811">
+    <data-source source="LOCAL" name="Rails per: test" uuid="585b077a-28dd-4469-9cac-53f8aba5bed4">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/test.sqlite3</jdbc-url>
-      <libraries>
-        <library>
-          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/sqlite-jdbc-3.7.2.jar</url>
-        </library>
-      </libraries>
+      <jdbc-url>jdbc:sqlite:C:\Users\aayousse\Desktop\per\db\test.sqlite3</jdbc-url>
+      <libraries />
     </data-source>
-    <data-source source="LOCAL" name="Rails performance_testing: performance" uuid="0c132a16-3c6f-4a34-96ad-ccbdf10665cb">
+    <data-source source="LOCAL" name="Rails per: performance" uuid="fce99835-a5fb-48a3-b319-e37be4af5599">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\aayousse\ruby1\performance-testing-assignment\db\development.sqlite3</jdbc-url>
-      <libraries>
-        <library>
-          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/sqlite-jdbc-3.7.2.jar</url>
-        </library>
-      </libraries>
+      <jdbc-url>jdbc:sqlite:C:\Users\aayousse\Desktop\per\db\development.sqlite3</jdbc-url>
+      <libraries />
     </data-source>
   </component>
 </project>
